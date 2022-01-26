@@ -1,7 +1,17 @@
 :root {
   --cor-0: #fff;
+  --cor-preta: #222222;
+  --cor-cinza: #918a88;
 }
 
 .cor-0 {
   color: var(--cor-0);
+}
+
+.cor-preta {
+  color: var(--cor-preta);
+}
+
+.cor-cinza {
+  color: var(--cor-cinza);
 }

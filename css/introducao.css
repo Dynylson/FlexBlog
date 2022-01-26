@@ -1,4 +1,13 @@
-.home-main h1 {
+main h1 {
   padding: 60px 0;
   border-bottom: 2px solid #2c70ff;
+}
+
+.introducao {
+  display: flex;
+  gap: 30px;
+}
+
+.introducao img {
+  padding-top: 60px;
 }
