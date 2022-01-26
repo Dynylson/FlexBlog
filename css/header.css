@@ -1,0 +1,43 @@
+/* Header Top */
+
+.header-top-bg {
+  background: #122ab2;
+}
+
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header-top-info,
+.header-principal-menu {
+  list-style: none;
+}
+
+/* Header Principal */
+
+.header-principal {
+  background: #2c70ff;
+}
+
+.header-principal .navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-principal-menu {
+  display: flex;
+  gap: 15px;
+}
+
+.header-principal-menu a {
+  text-decoration: none;
+  color: var(--cor-0);
+}
+
+.header-principal-menu li:hover {
+  color: #1f2ab2;
+}
