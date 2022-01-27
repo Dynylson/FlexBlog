@@ -31,10 +31,11 @@
 
 .header-principal-menu {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
-.header-principal-menu a {
+.header-principal-menu a,
+.header-principal a {
   text-decoration: none;
   color: var(--cor-0);
 }
