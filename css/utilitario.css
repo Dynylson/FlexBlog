@@ -1,5 +1,5 @@
 .container {
-  max-width: 950px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -17,4 +17,8 @@
 
 .line-height1 {
   line-height: 1;
+}
+
+.margin-10 {
+  margin: 0 10px;
 }
