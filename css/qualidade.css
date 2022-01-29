@@ -1,0 +1,42 @@
+.qualidade {
+  max-width: 969px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualidade-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.qualidade-item h2 {
+  font-size: 36px;
+  color: #a4a4a4;
+}
+
+.qualidade-item p {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #7c7c91;
+}
+
+.qualidade-purple h2::before {
+  background: #ae81ff;
+}
+
+.qualidade-pink h2::before {
+  background: #f9265e;
+}
+
+.qualidade-blue h2::before {
+  background: #66d9eb;
+}
+
+.qualidade-item h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+}
