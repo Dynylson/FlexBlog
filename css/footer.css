@@ -1,0 +1,13 @@
+.footer {
+  background: #2c70ff;
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  font-size: 36px;
+  color: #122ab2;
+  text-align: center;
+}

@@ -1,9 +1,9 @@
 .newsletter-bg {
   background: #f7f7f7;
-  padding: 60px;
 }
 
 .newsletter {
+  padding: 60px 0;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -22,6 +22,7 @@
 
 .newsletter-info p {
   max-width: 230px;
+  margin-bottom: 10px;
   color: #888680;
   font-size: 20px;
   font-style: italic;
@@ -32,6 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   align-self: center;
+  margin: 0 10px;
 }
 
 .newsletter-form input {
