@@ -1,0 +1,60 @@
+.newsletter-bg {
+  background: #f7f7f7;
+  padding: 60px;
+}
+
+.newsletter {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info {
+  flex: 1 1 240px;
+  margin: 0 10px;
+}
+
+.newsletter-info h2 {
+  font-size: 48px;
+  color: #a4a4a4;
+}
+
+.newsletter-info p {
+  max-width: 230px;
+  color: #888680;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.newsletter-form {
+  flex: 2 1 260px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.newsletter-form input {
+  flex: 3 1 260px;
+  background: transparent;
+  border: 4px solid #2c70ff;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Nunito";
+}
+
+.newsletter-form button {
+  flex: 1 1 260px;
+  background: #2c70ff;
+  color: #fff;
+  border: none;
+  padding: 15px 10px;
+  font-size: 36px;
+  font-family: "Nunito";
+  font-weight: 700;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+}
