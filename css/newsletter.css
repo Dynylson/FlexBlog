@@ -57,6 +57,10 @@
   font-weight: 700;
 }
 
+.newsletter-form button:hover {
+  cursor: pointer;
+}
+
 .newsletter-form input:focus {
   outline: none;
 }
